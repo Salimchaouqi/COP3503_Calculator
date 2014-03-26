@@ -110,7 +110,7 @@ string Expression::getRep() {
     string output;
     ostringstream convert;
 
-    for (int a = 0; a < addedNumbers.size(); a++) {
+    for (int a = 1; a < addedNumbers.size(); a++) {
         for (int b = 0; b < addedNumbers[a].size(); b++) {
             convert << addedNumbers[a][b]->getRep();
 
